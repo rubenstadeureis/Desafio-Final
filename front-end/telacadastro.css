@@ -135,9 +135,19 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
   height: 63px;
   left: 78px;
   top: 799px;
-  
-  /* Main Blue */
-  
+
+ 
+  background: #154A86;
+  border-radius: 69px;
+}
+
+.btnsair {
+  position: absolute;
+  width: 374px;
+  height: 63px;
+  left: 78px;
+  top: 900px;
+
   background: #154A86;
   border-radius: 69px;
 }
