@@ -3,7 +3,7 @@ const { getAll, create, getOne, remove } = require("../controller/userpoke");
 const { getAllh, createH } = require("../controller/user");
 
 module.exports = (app) => {
-  app.get("/user/allpoke", getAll);
+  app.get("/allpoke", getAll);
 
   app.get("/userh", getAllh);
 
