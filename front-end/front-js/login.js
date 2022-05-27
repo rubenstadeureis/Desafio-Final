@@ -4,7 +4,7 @@ function logar() {
 
   if (login == "admin" && senha == "admin") {
     alert("Sucesso");
-    location.href = "/front-end/pagelist.html";
+    location.href = "./pagelist.html";
   } else {
     alert("Usuario ou senha incorretos");
   }

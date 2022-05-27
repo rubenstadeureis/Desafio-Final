@@ -13,10 +13,9 @@ body {
 }
 
 .cards {
-  width: 2000px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .logopoke {

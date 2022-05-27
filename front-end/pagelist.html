@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="pagelist.css" media="screen" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>  
- 
-    <title>pagelist</title>
-    
+  <link rel="stylesheet" href="pagelist.css" media="screen" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./front-js/axios.js"></script>
+  <title>pagelist</title>
 
 </head>
-<body> 
 
-  
+<body>
   <div class="links">
-    <img class="logopoke" src="/front-end/imagens/Group 15.png" alt=""> 
+    <img class="logopoke" src="./imagens/Group 15.png" alt="">
     <a class="linksc" href="#">Todos os pokémons</a>
     <br>
-    <a class="linksc" href="mylist.html">Minhas Listas</a>      
+    <a class="linksc" href="mylist.html">Minhas Listas</a>
     <br>
-    <a class="linksc" href="mypokemons.html">Meus Pokémons</a>   
+    <a class="linksc" href="mypokemons.html">Meus Pokémons</a>
     <br>
-    <a class="linksc" href="newlist.html">Criar nova lista</a>  
+    <a class="linksc" href="newlist.html">Criar nova lista</a>
     <br>
-    <a class="linksc" href="newpokemons.html">Criar novo pokémons</a>   
-    <br>   
-    <a class="linksc" href="home.html"> Sair </a> 
-  </div>    
+    <a class="linksc" href="newpokemons.html">Criar novo pokémons</a>
+    <br>
+    <a class="linksc" href="home.html"> Sair </a>
   </div>
-    <div class="cards">                 
-      <div class="card" style="width: 18rem;">         
-        <img src="./imagens/charm.png" class="card-img-top" alt="...">
-    
-        <div class="card-body">
-          <p class="cardtext">ATK 188 <br> DEF 118 <BR> STA 90 </p>
-            <script src="./front-js/axios.js"></script>
-        </div>
+  </div>
+  <div class="cards" id="cardsRender">
+    <div class="card" style="width: 18rem;">
+      <img src="./imagens/charm.png" class="card-img-top" alt="...">
+
+      <div class="card-body">
+        <p class="cardtext">ATK 188 <br> DEF 118 <BR> STA 90 </p>
       </div>
-      
     </div>
-
-    
-
-  
-    
+  </div>
 </body>
-</html>
 
+</html>
